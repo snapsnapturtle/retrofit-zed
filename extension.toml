@@ -1,0 +1,7 @@
+id = "retrofit-theme"
+name = "Retrofit Theme"
+version = "0.0.1"
+schema_version = 1
+authors = ["Jonah Möller <jonah.moeller@googlemail.com>"]
+description = "A carefully crafted Zed theme with muted accent colors optimized for readability on dark backgrounds."
+repository = "https://github.com/snapsnapturtle/retrofit-zed"
