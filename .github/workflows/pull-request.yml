@@ -1,5 +1,3 @@
-name: Pull request
-
 on:
   pull_request:
 
@@ -8,13 +6,5 @@ permissions:
 
 jobs:
   build-and-test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Validate Zed theme schema
-        uses: dsanders11/json-schema-validate-action@v1.3.0
-        with:
-          schema: https://zed.dev/schema/themes/v0.2.0.json
-          files: themes/**.json
+    uses: ./.github/workflows/build-and-test.yml
+    secrets: inherit

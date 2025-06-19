@@ -1,13 +1,13 @@
-name: Release
-
 on:
   push:
     tags:
       - "v*"
 
 jobs:
+  build-and-test:
+    uses: ./.github/workflows/build-and-test.yml
+    secrets: inherit
   update-registry:
-    name: Update extension registry
     runs-on: ubuntu-latest
     steps:
       - uses: huacnlee/zed-extension-action@v1
