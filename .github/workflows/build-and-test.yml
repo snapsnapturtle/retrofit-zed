@@ -1,0 +1,19 @@
+name: Build and test
+
+on:
+  workflow_call:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dsanders11/json-schema-validate-action@v1.3.0
+        with:
+          schema: https://zed.dev/schema/themes/v0.2.0.json
+          files: themes/**.json
