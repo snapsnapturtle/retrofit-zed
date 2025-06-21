@@ -228,9 +228,6 @@ func main() {
 		Green:             green.Color_300,
 		GreenLight:        green.Color_200,
 		GreenBackground:   green.Color_800,
-		Gray:              "#A8ABB6",
-		GrayLight:         "#C4C6CE",
-		GrayBackground:    "#2E3037",
 	}
 
 	var templateFile = "template.tmpl"

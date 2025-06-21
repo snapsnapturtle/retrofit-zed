@@ -19,17 +19,17 @@
 
         "background": "#101115",
         "surface.background": "#101115",
-        "elevated_surface.background": "#14151a",
+        "elevated_surface.background": "#14151A",
 
         "element.active": "#282A31",
         "element.background": "#1E1F25",
         "element.hover": "#282A31",
         "element.selected": "#282A31",
-        "element.disabled": "#14151a",
+        "element.disabled": "#14151A",
 
         "ghost_element.active": "#282A31",
         "ghost_element.background": "#0000",
-        "ghost_element.disabled": "#14151a",
+        "ghost_element.disabled": "#14151A",
         "ghost_element.hover": "#282A31",
         "ghost_element.selected": "#282A31",
 
@@ -44,7 +44,7 @@
         "icon.accent": "#E8B246",
 
         "title_bar.background": "#101115",
-        "toolbar.background": "#14151a",
+        "toolbar.background": "#14151A",
 
         "status_bar.foreground": null,
         "status_bar.background": "#101115",
@@ -52,7 +52,7 @@
         "tab_bar.background": "#101115",
         "tab.inactive_background": "#101115",
         "tab.active_foreground": null,
-        "tab.active_background": "#14151a",
+        "tab.active_background": "#14151A",
 
         "panel.background": "#101115",
         "panel.focused_border": "#0000",
@@ -64,12 +64,12 @@
         "scrollbar.thumb.background": "#32343D80",
         "scrollbar_thumb.background": "#32343D80",
         "scrollbar.thumb.hover_background": "#32343DC8",
-        "scrollbar.track.background": "#14151a",
+        "scrollbar.track.background": "#14151A",
         "scrollbar.track.border": "#0000",
 
         "editor.line_number": "#5B5E6D80",
         "editor.active_line_number": "#A8ABB6",
-        "editor.active_line.background": "#14151a",
+        "editor.active_line.background": "#14151A",
         "editor.active_wrap_guide": "#5B5E6D",
         "editor.background": "#101115",
         "editor.document_highlight.read_background": "#0000",
@@ -81,7 +81,7 @@
         "editor.wrap_guide": "#5B5E6D",
 
         "terminal.ansi.black": "#101115",
-        "terminal.ansi.bright_black": "#A8ABB6",
+        "terminal.ansi.bright_black": "#32343D",
         "terminal.ansi.red": "#D96B6B",
         "terminal.ansi.bright_red": "#E2A0A0",
         "terminal.ansi.green": "#7AA67E",
@@ -120,11 +120,11 @@
         "modified.border": null,
         "modified.background": "#1C2C37",
 
-        "ignored": "#A8ABB6",
+        "ignored": "#32343D",
         "ignored.border": "#0000",
         "ignored.background": "#0000",
 
-        "hidden": "#A8ABB6",
+        "hidden": "#32343D",
         "hidden.border": "#0000",
         "hidden.background": null,
 
