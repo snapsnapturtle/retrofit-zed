@@ -1,0 +1,296 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Retrofit",
+  "author": "Jonah Möller",
+  "themes": [
+    {
+      "name": "Retrofit Dark",
+      "appearance": "dark",
+      "style": {
+        "background.appearance": "opaque",
+        "accents": [],
+
+        "border": "{{ .BorderDefault }}",
+        "border.variant": "{{ .BorderDefault }}",
+        "border.focused": "{{ .BorderDefault }}",
+        "border.selected": null,
+        "border.transparent": "{{ .Transparent }}",
+        "border.disabled": "{{ .Transparent }}",
+
+        "background": "{{ .BackgroundDefault }}",
+        "surface.background": "{{ .BackgroundDefault }}",
+        "elevated_surface.background": "{{ .BackgroundMuted }}",
+
+        "element.active": "{{ .BackgroundHover }}",
+        "element.background": "{{ .BackgroundSurface }}",
+        "element.hover": "{{ .BackgroundHover }}",
+        "element.selected": "{{ .BackgroundHover }}",
+        "element.disabled": "{{ .BackgroundMuted }}",
+
+        "ghost_element.active": "{{ .BackgroundHover }}",
+        "ghost_element.background": "{{ .Transparent }}",
+        "ghost_element.disabled": "{{ .BackgroundMuted }}",
+        "ghost_element.hover": "{{ .BackgroundHover }}",
+        "ghost_element.selected": "{{ .BackgroundHover }}",
+
+        "drop_target.background": "{{ .BackgroundSurface }}80",
+
+        "text": "{{ .ForegroundDefault }}",
+        "text.muted": "{{ .ForegroundMuted }}",
+        "text.placeholder": "{{ .ForegroundMuted }}80",
+        "text.disabled": "{{ .ForegroundDisabled }}",
+        "text.accent": "{{ .Yellow }}",
+
+        "icon.accent": "{{ .Yellow }}",
+
+        "title_bar.background": "{{ .BackgroundDefault }}",
+        "toolbar.background": "{{ .BackgroundMuted }}",
+
+        "status_bar.foreground": null,
+        "status_bar.background": "{{ .BackgroundDefault }}",
+
+        "tab_bar.background": "{{ .BackgroundDefault }}",
+        "tab.inactive_background": "{{ .BackgroundDefault }}",
+        "tab.active_foreground": null,
+        "tab.active_background": "{{ .BackgroundMuted }}",
+
+        "panel.background": "{{ .BackgroundDefault }}",
+        "panel.focused_border": "{{ .Transparent }}",
+
+        "pane_group.border": "{{ .Transparent }}",
+        "pane.focused_border": "{{ .Transparent }}",
+
+        "scrollbar.thumb.border": "{{ .Transparent }}",
+        "scrollbar.thumb.background": "{{ .BorderDefault }}80",
+        "scrollbar_thumb.background": "{{ .BorderDefault }}80",
+        "scrollbar.thumb.hover_background": "{{ .BorderDefault }}C8",
+        "scrollbar.track.background": "{{ .BackgroundMuted }}",
+        "scrollbar.track.border": "{{ .Transparent }}",
+
+        "editor.line_number": "{{ .ForegroundMuted }}80",
+        "editor.active_line_number": "{{ .ForegroundDefault }}",
+        "editor.active_line.background": "{{ .BackgroundMuted }}",
+        "editor.active_wrap_guide": "{{ .ForegroundMuted }}",
+        "editor.background": "{{ .BackgroundDefault }}",
+        "editor.document_highlight.read_background": "{{ .Transparent }}",
+        "editor.foreground": "{{ .ForegroundDefault }}",
+        "editor.gutter.background": "{{ .BackgroundDefault }}",
+        "editor.highlighted_line.background": null,
+        "editor.invisible": null,
+        "editor.subheader.background": "{{ .BackgroundSurface }}",
+        "editor.wrap_guide": "{{ .ForegroundMuted }}",
+
+        "terminal.ansi.black": "{{ .BackgroundDefault }}",
+        "terminal.ansi.bright_black": "{{ .ForegroundDisabled }}",
+        "terminal.ansi.red": "{{ .Red }}",
+        "terminal.ansi.bright_red": "{{ .RedLight }}",
+        "terminal.ansi.green": "{{ .Green }}",
+        "terminal.ansi.bright_green": "{{ .GreenLight }}",
+        "terminal.ansi.yellow": "{{ .Yellow }}",
+        "terminal.ansi.bright_yellow": "{{ .YellowLight }}",
+        "terminal.ansi.blue": "{{ .Blue }}",
+        "terminal.ansi.bright_blue": "{{ .BlueLight }}",
+        "terminal.ansi.magenta": "{{ .Magenta }}",
+        "terminal.ansi.bright_magenta": "{{ .MagentaLight }}",
+        "terminal.ansi.cyan": "{{ .Cyan }}",
+        "terminal.ansi.bright_cyan": "{{ .CyanLight }}",
+        "terminal.ansi.white": "{{ .ForegroundMuted }}",
+        "terminal.ansi.bright_white": "{{ .ForegroundDefault }}",
+
+        "link_text.hover": "{{ .Blue }}",
+        "search.match_background": null,
+        "unreachable": null,
+
+        "predictive": "{{ .ForegroundMuted }}",
+        "predictive.border": null,
+
+        "conflict": "{{ .Yellow }}",
+        "conflict.border": null,
+        "conflict.background": "{{ .YellowBackground }}",
+
+        "created": "{{ .Green }}",
+        "created.border": null,
+        "created.background": "{{ .GreenBackground }}",
+
+        "deleted": "{{ .Red }}",
+        "deleted.border": null,
+        "deleted.background": "{{ .RedBackground }}",
+
+        "modified": "{{ .Blue }}",
+        "modified.border": null,
+        "modified.background": "{{ .BlueBackground }}",
+
+        "ignored": "{{ .ForegroundDisabled }}",
+        "ignored.border": "{{ .Transparent }}",
+        "ignored.background": "{{ .Transparent }}",
+
+        "hidden": "{{ .ForegroundDisabled }}",
+        "hidden.border": "{{ .Transparent }}",
+        "hidden.background": null,
+
+        "hint": "{{ .ForegroundMuted }}80",
+        "hint.border": "{{ .Transparent }}",
+        "hint.background": "{{ .Transparent }}",
+
+        "info": "{{ .Blue }}",
+        "info.border": "{{ .Blue }}",
+        "info.background": "{{ .BlueBackground }}",
+
+        "success": "{{ .Green }}",
+        "success.border": "{{ .Green }}",
+        "success.background": "{{ .GreenBackground }}",
+
+        "warning": "{{ .Orange }}",
+        "warning.border": "{{ .Orange }}",
+        "warning.background": "{{ .OrangeBackground }}",
+
+        "error": "{{ .Red }}",
+        "error.border": "{{ .Red }}",
+        "error.background": "{{ .RedBackground }}",
+
+        "players": [
+          {
+            "background": "{{ .Transparent }}",
+            "cursor": "{{ .ForegroundDefault }}",
+            "selection": "{{ .ForegroundDefault }}20"
+          },
+          {
+            "background": "{{ .Transparent }}",
+            "cursor": "{{ .Red }}",
+            "selection": "{{ .RedBackground }}40"
+          },
+          {
+            "background": "{{ .Transparent }}",
+            "cursor": "{{ .Green }}",
+            "selection": "{{ .GreenBackground }}40"
+          },
+          {
+            "background": "{{ .Transparent }}",
+            "cursor": "{{ .Yellow }}",
+            "selection": "{{ .YellowBackground }}40"
+          },
+          {
+            "background": "{{ .Transparent }}",
+            "cursor": "{{ .Magenta }}",
+            "selection": "{{ .MagentaBackground }}40"
+          }
+        ],
+        "syntax": {
+          "attribute": {
+            "color": "{{ .Green }}",
+            "font_style": "normal",
+            "font_weight": null
+          },
+          "boolean": {
+            "color": "{{ .Red }}",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment": {
+            "color": "{{ .Green }}",
+            "font_style": "italic"
+          },
+          "comment.doc": {
+            "color": "{{ .Green }}",
+            "font_style": "italic"
+          },
+          "constant": {
+            "color": "{{ .Red }}",
+            "font_style": "italic"
+          },
+          "constructor": {
+            "color": "{{ .Cyan }}"
+          },
+          "function": {
+            "color": "{{ .Yellow }}",
+            "font_style": "italic"
+          },
+          "keyword": {
+            "color": "{{ .Red }}",
+            "font_weight": 600
+          },
+          "label": {
+            "color": "{{ .Magenta }}"
+          },
+          "number": {
+            "color": "{{ .Magenta }}"
+          },
+          "punctuation": {
+            "color": "{{ .ForegroundMuted }}"
+          },
+          "punctuation.bracket": {
+            "color": "{{ .ForegroundMuted }}"
+          },
+          "punctuation.delimiter": {
+            "color": "{{ .ForegroundMuted }}"
+          },
+          "punctuation.list_marker": {
+            "color": "{{ .ForegroundMuted }}"
+          },
+          "punctuation.special": {
+            "color": "{{ .ForegroundMuted }}"
+          },
+          "string": {
+            "color": "{{ .Violet }}"
+          },
+          "string.escape": {
+            "color": "{{ .Violet }}"
+          },
+          "string.regex": {
+            "color": "{{ .Violet }}"
+          },
+          "string.special": {
+            "color": "{{ .Violet }}"
+          },
+          "string.special.symbol": {
+            "color": "{{ .Violet }}"
+          },
+          "tag": {
+            "color": "{{ .Cyan }}"
+          },
+          "text.literal": {
+            "color": "{{ .Violet }}"
+          },
+          "title": {
+            "color": "{{ .Orange }}"
+          },
+          "type": {
+            "color": "{{ .Cyan }}"
+          },
+          "variable": {
+            "color": null
+          },
+          "variable.special": {
+            "color": "{{ .Orange }}",
+            "font_style": "italic"
+          },
+          "editor.foreground": {
+            "color": "{{ .ForegroundDefault }}"
+          },
+          "emphasis": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "function.method": {
+            "color": "{{ .Yellow }}",
+            "font_style": "italic"
+          },
+          "function.special.definition": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "operator": {
+            "color": null
+          },
+          "type.builtin": {
+            "color": null,
+            "font_style": "italic",
+            "font_weight": null
+          }
+        }
+      }
+    }
+  ]
+}
