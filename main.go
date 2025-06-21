@@ -195,10 +195,10 @@ func main() {
 		BackgroundDefault: neutral.Color_950,
 		BackgroundMuted:   neutral.Color_900,
 		BackgroundSurface: neutral.Color_800,
-		BackgroundHover:   neutral.Color_700,
+		BackgroundHover:   neutral.Color_800,
 
-		BorderDefault: neutral.Color_600,
-		BorderMuted:   neutral.Color_700,
+		BorderDefault: neutral.Color_700,
+		BorderMuted:   neutral.Color_800,
 
 		ForegroundDefault:  neutral.Color_300,
 		ForegroundMuted:    neutral.Color_500,
