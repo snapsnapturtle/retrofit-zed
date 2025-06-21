@@ -106,25 +106,25 @@
 
         "conflict": "#E8B246",
         "conflict.border": null,
-        "conflict.background": "#4A3A1E",
+        "conflict.background": "#44320E",
 
         "created": "#7AA67E",
         "created.border": null,
-        "created.background": "#263328",
+        "created.background": "#213022",
 
         "deleted": "#D96B6B",
         "deleted.border": null,
-        "deleted.background": "#432626",
+        "deleted.background": "#4D1818",
 
         "modified": "#6B96B8",
         "modified.border": null,
-        "modified.background": "#243039",
+        "modified.background": "#1C2C37",
 
-        "ignored": "#8D909F",
+        "ignored": "#A8ABB6",
         "ignored.border": "#0000",
         "ignored.background": "#0000",
 
-        "hidden": "#8D909F",
+        "hidden": "#A8ABB6",
         "hidden.border": "#0000",
         "hidden.background": null,
 
@@ -134,19 +134,19 @@
 
         "info": "#6B96B8",
         "info.border": "#6B96B8",
-        "info.background": "#243039",
+        "info.background": "#1C2C37",
 
         "success": "#7AA67E",
         "success.border": "#7AA67E",
-        "success.background": "#263328",
+        "success.background": "#213022",
 
         "warning": "#E8954E",
         "warning.border": "#E8954E",
-        "warning.background": "#473024",
+        "warning.background": "#462A11",
 
         "error": "#D96B6B",
         "error.border": "#D96B6B",
-        "error.background": "#432626",
+        "error.background": "#4D1818",
 
         "players": [
           {
@@ -157,22 +157,22 @@
           {
             "background": "#0000",
             "cursor": "#D96B6B",
-            "selection": "#43262640"
+            "selection": "#4D181840"
           },
           {
             "background": "#0000",
             "cursor": "#7AA67E",
-            "selection": "#26332840"
+            "selection": "#21302240"
           },
           {
             "background": "#0000",
             "cursor": "#E8B246",
-            "selection": "#4A3A1E40"
+            "selection": "#44320E40"
           },
           {
             "background": "#0000",
             "cursor": "#C788A5",
-            "selection": "#3F2D3440"
+            "selection": "#41223140"
           }
         ],
         "syntax": {
