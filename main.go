@@ -193,16 +193,16 @@ func main() {
 	var colors = SemanticColors{
 		Transparent:       "#0000",
 		BackgroundDefault: neutral.Color_950,
-		BackgroundMuted:   neutral.Color_900,
-		BackgroundSurface: neutral.Color_800,
-		BackgroundHover:   neutral.Color_800,
+		BackgroundMuted:   neutral.Color_800,
+		BackgroundSurface: neutral.Color_700,
+		BackgroundHover:   neutral.Color_600,
 
-		BorderDefault: neutral.Color_700,
-		BorderMuted:   neutral.Color_800,
+		BorderDefault: neutral.Color_600,
+		BorderMuted:   neutral.Color_700,
 
-		ForegroundDefault:  neutral.Color_300,
-		ForegroundMuted:    neutral.Color_500,
-		ForegroundDisabled: neutral.Color_600,
+		ForegroundDefault:  neutral.Color_200,
+		ForegroundMuted:    neutral.Color_400,
+		ForegroundDisabled: neutral.Color_500,
 
 		Yellow:            yellow.Color_300,
 		YellowLight:       yellow.Color_200,
