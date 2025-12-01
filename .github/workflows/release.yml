@@ -12,7 +12,7 @@ jobs:
   update-registry:
     runs-on: ubuntu-latest
     steps:
-      - uses: huacnlee/zed-extension-action@v1
+      - uses: huacnlee/zed-extension-action@v2
         with:
           extension-name: retrofit
           push-to: snapsnapturtle/extensions
